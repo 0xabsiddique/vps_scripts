@@ -190,11 +190,11 @@ git clone https://github.com/secdec/xssmap $dir/xssmap;
 git clone https://github.com/hahwul/websocket-connection-smuggler $dir/websocket-connection-smuggler;
 git clone https://github.com/rastating/wordpress-exploit-framework $dir/wordpress-exploit-framework;
 git clone https://github.com/1ndianl33t/Gf-Patterns;
-mv ~/Gf-Patterns/*.json ~/.gf/;
-rm -rf ~/Gf-Patterns;
+mv ~/tools/Gf-Patterns/*.json ~/.gf/;
+rm -rf ~/tools/Gf-Patterns;
 wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
-mv ~/potential.json ~/.gf/;
+mv ~/tools/potential.json ~/.gf/;
 echo 'source /usr/local/go/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc;
 
-echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
+echo -e "\n\n\nDone! All tools are set ~/tools"
 ls -la
