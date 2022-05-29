@@ -193,7 +193,10 @@ mv ~/tools/Gf-Patterns/*.json ~/.gf/;
 rm -rf ~/tools/Gf-Patterns;
 wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
 mv ~/tools/potential.json ~/.gf/;
-echo 'source /usr/local/go/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc;
+echo 'source ~/go/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc;
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 echo -e "\n\n\nDone! All tools are set ~/tools"
 ls -la
