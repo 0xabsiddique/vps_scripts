@@ -15,7 +15,6 @@ sudo apt-get install -y python-pip
 sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
 sudo apt-get install -y rename
-sudo apt-get install -y xargs
 sudo apt-get install screen;
 echo "done"
 
